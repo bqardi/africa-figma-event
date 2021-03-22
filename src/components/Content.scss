@@ -1,0 +1,33 @@
+.Content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em 1em;
+	&__title {
+		color: #001958;
+		font-size: 1.6em;
+		line-height: 1.3em;
+		text-transform: uppercase;
+		margin: 0 0 1em;
+	}
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2em;
+		width: 50vw;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
+	@media only screen and (min-width: 410px) {
+		&__title {
+			margin: 0 1em 0.5em;
+			text-align: center;
+		}
+		&__grid {
+			grid-template-columns: repeat(4, 1fr);
+			gap: 0;
+			width: 80vw;
+		}
+	}
+}

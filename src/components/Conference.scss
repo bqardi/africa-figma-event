@@ -1,0 +1,15 @@
+.Conference {
+	grid-row: 2 / 3;
+	&__title {
+		margin: 0 0 1em;
+		line-height: 1.15em;
+		font-size: 2em;
+	}
+	&__upperCase {
+		text-transform: uppercase;
+	}
+	&__note {
+		margin-top: 0.5em;
+		font-weight: 200;
+	}
+}

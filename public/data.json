@@ -1,0 +1,22 @@
+[
+	{
+		"id": 0,
+		"title": "Countries",
+		"value": 12
+	},
+	{
+		"id": 1,
+		"title": "Cities",
+		"value": 30
+	},
+	{
+		"id": 2,
+		"title": "Speakers",
+		"value": 120
+	},
+	{
+		"id": 3,
+		"title": "Attendees",
+		"value": 895
+	}
+]
