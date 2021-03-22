@@ -11,8 +11,6 @@ function Content() {
 			.then((result) => setData(result));
 	}, []);
 
-	console.log(data);
-
 	return (
 		<main className="Content">
 			<h1 className="Content__title">Our conferences in numbers</h1>
