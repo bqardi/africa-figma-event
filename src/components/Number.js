@@ -14,7 +14,7 @@ function Number({ title, number }) {
 		}
 		return () => clearTimeout(timeout);
 	}, [num, number]);
-	
+
 	return (
 		<article className="Number">
 			<h2 className="Number__title">{title}</h2>
